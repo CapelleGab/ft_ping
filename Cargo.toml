@@ -1,0 +1,9 @@
+[package]
+name = "ft_ping"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+libc = "1.0.0-alpha.3"
+ctrlc = "3.5.2"
+clap = { version = "4.5.60", features = ["derive"] }
